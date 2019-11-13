@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+    <info organisation="com.pi4j.pi4j" module="pi4j" revision="1.1-SNAPSHOT" status="release" publication="20191026170330">
+    </info>
+    <configurations>
+        <conf name="public"/>
+		<conf name="runtime"/>
+		<conf name="armv6.hfp.32.linux"/>
+		<conf name="armv7.hfp.32.linux"/>
+		<conf name="armv7.32.linux"/>
+		<conf name="armv8.64.linux"/>
+		<conf name="armv7.hfp.32.linux"/>
+		<conf name="x86.32.linux"/>
+		<conf name="x86.64.linux"/>
+		<conf name="x86.32.mac"/>
+		<conf name="x86.64.mac"/>
+		<conf name="x86.32.windows"/>
+		<conf name="x86.64.windows"/>
+    </configurations>
+    <publications>
+        <artifact name="pi4j-core" type="jar"/>
+        <artifact name="pi4j-gpio-extension" type="jar"/>
+        <!-- 
+        <artifact name="pi4j-core" type="jar" conf="armv6.hfp.32.linux"/>
+        <artifact name="pi4j-gpio-extension" type="jar" conf="armv6.hfp.32.linux"/>
+        
+         -->
+        </publications>
+</ivy-module>

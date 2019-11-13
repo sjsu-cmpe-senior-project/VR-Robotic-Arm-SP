@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.commons.httpclient"
+		module="httpclient-caller"
+		revision="working"
+		conf="default"
+		confs="default"
+		date="20191026170337"/>
+	<dependencies>
+		<module organisation="org.apache.commons.httpclient" name="httpclient">
+			<revision name="4.5.2" status="release" pubdate="20191026170338" resolver="public-remote" artresolver="public-remote" downloaded="true" searched="true" default="false" conf="x86.64.linux, runtime" position="0">
+				<metadata-artifact status="successful" details="" size="669" time="474" location="/run/media/nick/c9aafeb5-ec91-4d34-959a-05b1c1d6f0c8/MRL_MASTER/myrobotlab/repo/org.apache.commons.httpclient/httpclient/ivy-4.5.2.xml" searched="true" original-local-location="/run/media/nick/c9aafeb5-ec91-4d34-959a-05b1c1d6f0c8/MRL_MASTER/myrobotlab/repo/org.apache.commons.httpclient/httpclient/ivy-4.5.2.xml.original" origin-is-local="false" origin-location="https://raw.githubusercontent.com/MyRobotLab/repo/master/org.apache.commons.httpclient/4.5.2/ivy.xml"/>
+				<caller organisation="org.apache.commons.httpclient" name="httpclient-caller" conf="default" rev="4.5.2" rev-constraint-default="4.5.2" rev-constraint-dynamic="4.5.2" callerrev="working"/>
+				<artifacts>
+					<artifact name="commons-codec-1.9" type="jar" ext="jar" status="successful" details="" size="263965" time="776" location="/run/media/nick/c9aafeb5-ec91-4d34-959a-05b1c1d6f0c8/MRL_MASTER/myrobotlab/repo/org.apache.commons.httpclient/httpclient/jars/commons-codec-1.9-4.5.2.jar">
+						<origin-location is-local="false" location="https://raw.githubusercontent.com/MyRobotLab/repo/master/org.apache.commons.httpclient/4.5.2/commons-codec-1.9.jar"/>
+					</artifact>
+					<artifact name="commons-logging-1.2" type="jar" ext="jar" status="successful" details="" size="61829" time="716" location="/run/media/nick/c9aafeb5-ec91-4d34-959a-05b1c1d6f0c8/MRL_MASTER/myrobotlab/repo/org.apache.commons.httpclient/httpclient/jars/commons-logging-1.2-4.5.2.jar">
+						<origin-location is-local="false" location="https://raw.githubusercontent.com/MyRobotLab/repo/master/org.apache.commons.httpclient/4.5.2/commons-logging-1.2.jar"/>
+					</artifact>
+					<artifact name="httpcore-4.4.4" type="jar" ext="jar" status="successful" details="" size="326724" time="982" location="/run/media/nick/c9aafeb5-ec91-4d34-959a-05b1c1d6f0c8/MRL_MASTER/myrobotlab/repo/org.apache.commons.httpclient/httpclient/jars/httpcore-4.4.4-4.5.2.jar">
+						<origin-location is-local="false" location="https://raw.githubusercontent.com/MyRobotLab/repo/master/org.apache.commons.httpclient/4.5.2/httpcore-4.4.4.jar"/>
+					</artifact>
+					<artifact name="httpmime-4.5.2" type="jar" ext="jar" status="successful" details="" size="41029" time="519" location="/run/media/nick/c9aafeb5-ec91-4d34-959a-05b1c1d6f0c8/MRL_MASTER/myrobotlab/repo/org.apache.commons.httpclient/httpclient/jars/httpmime-4.5.2-4.5.2.jar">
+						<origin-location is-local="false" location="https://raw.githubusercontent.com/MyRobotLab/repo/master/org.apache.commons.httpclient/4.5.2/httpmime-4.5.2.jar"/>
+					</artifact>
+					<artifact name="httpclient-4.5.2" type="jar" ext="jar" status="successful" details="" size="736658" time="868" location="/run/media/nick/c9aafeb5-ec91-4d34-959a-05b1c1d6f0c8/MRL_MASTER/myrobotlab/repo/org.apache.commons.httpclient/httpclient/jars/httpclient-4.5.2-4.5.2.jar">
+						<origin-location is-local="false" location="https://raw.githubusercontent.com/MyRobotLab/repo/master/org.apache.commons.httpclient/4.5.2/httpclient-4.5.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

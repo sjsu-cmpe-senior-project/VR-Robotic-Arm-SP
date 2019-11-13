@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="com.sun.speech.freetts" module="freetts-caller" revision="working" status="release" publication="20191026170436" default="true"/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+		<artifact name="freetts-caller" type="jar" ext="jar" conf="default"/>
+	</publications>
+	<dependencies>
+		<dependency org="com.sun.speech.freetts" name="freetts" rev="1.2" conf="default->runtime,x86.64.linux"/>
+	</dependencies>
+</ivy-module>

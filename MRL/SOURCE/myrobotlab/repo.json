@@ -1,0 +1,41 @@
+{
+  "libraries": {
+    "com.googlecode.jssc/2.8.0": {
+      "org": "com.googlecode.jssc",
+      "revision": "2.8.0",
+      "installed": true
+    },
+    "com.pi4j.pi4j/1.1-SNAPSHOT": {
+      "org": "com.pi4j.pi4j",
+      "revision": "1.1-SNAPSHOT",
+      "installed": true
+    },
+    "com.sun.speech.freetts/1.2": {
+      "org": "com.sun.speech.freetts",
+      "revision": "1.2",
+      "installed": true
+    },
+    "marytts/5.2": {
+      "org": "marytts",
+      "revision": "5.2",
+      "installed": true
+    },
+    "opennlp/1.6": {
+      "org": "opennlp",
+      "revision": "1.6",
+      "installed": true
+    },
+    "org.apache.commons.commons-lang3/3.3.2": {
+      "org": "org.apache.commons.commons-lang3",
+      "revision": "3.3.2",
+      "installed": true
+    },
+    "org.apache.commons.httpclient/4.5.2": {
+      "org": "org.apache.commons.httpclient",
+      "revision": "4.5.2",
+      "installed": true
+    }
+  },
+  "REPO_DIR": "repo",
+  "errors": []
+}

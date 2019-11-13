@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.sun.speech.freetts"
+		module="freetts-caller"
+		revision="working"
+		conf="default"
+		confs="default"
+		date="20191026170436"/>
+	<dependencies>
+		<module organisation="com.sun.speech.freetts" name="freetts">
+			<revision name="1.2" status="release" pubdate="20191026170436" resolver="public-remote" artresolver="public-remote" downloaded="true" searched="true" default="false" conf="x86.64.linux, runtime" position="0">
+				<metadata-artifact status="successful" details="" size="427" time="367" location="/run/media/nick/c9aafeb5-ec91-4d34-959a-05b1c1d6f0c8/MRL_MASTER/myrobotlab/repo/com.sun.speech.freetts/freetts/ivy-1.2.xml" searched="true" original-local-location="/run/media/nick/c9aafeb5-ec91-4d34-959a-05b1c1d6f0c8/MRL_MASTER/myrobotlab/repo/com.sun.speech.freetts/freetts/ivy-1.2.xml.original" origin-is-local="false" origin-location="https://raw.githubusercontent.com/MyRobotLab/repo/master/com.sun.speech.freetts/1.2/ivy.xml"/>
+				<caller organisation="com.sun.speech.freetts" name="freetts-caller" conf="default" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="working"/>
+				<artifacts>
+					<artifact name="freetts" type="jar" ext="jar" status="successful" details="" size="208668" time="770" location="/run/media/nick/c9aafeb5-ec91-4d34-959a-05b1c1d6f0c8/MRL_MASTER/myrobotlab/repo/com.sun.speech.freetts/freetts/jars/freetts-1.2.jar">
+						<origin-location is-local="false" location="https://raw.githubusercontent.com/MyRobotLab/repo/master/com.sun.speech.freetts/1.2/freetts.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
