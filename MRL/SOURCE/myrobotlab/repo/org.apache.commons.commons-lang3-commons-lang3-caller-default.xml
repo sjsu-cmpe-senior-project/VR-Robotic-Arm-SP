@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.commons.commons-lang3"
+		module="commons-lang3-caller"
+		revision="working"
+		conf="default"
+		confs="default"
+		date="20191026170442"/>
+	<dependencies>
+		<module organisation="org.apache.commons.commons-lang3" name="commons-lang3">
+			<revision name="3.3.2" status="release" pubdate="20191026170441" resolver="public-remote" artresolver="public-remote" downloaded="false" searched="false" default="false" conf="x86.64.linux, runtime" position="0">
+				<metadata-artifact status="no" details="" size="768" time="0" location="/run/media/nick/c9aafeb5-ec91-4d34-959a-05b1c1d6f0c8/MRL_MASTER/myrobotlab/repo/org.apache.commons.commons-lang3/commons-lang3/ivy-3.3.2.xml" searched="false" original-local-location="/run/media/nick/c9aafeb5-ec91-4d34-959a-05b1c1d6f0c8/MRL_MASTER/myrobotlab/repo/org.apache.commons.commons-lang3/commons-lang3/ivy-3.3.2.xml.original" origin-is-local="false" origin-location="https://raw.githubusercontent.com/MyRobotLab/repo/master/org.apache.commons.commons-lang3/3.3.2/ivy.xml"/>
+				<caller organisation="org.apache.commons.commons-lang3" name="commons-lang3-caller" conf="default" rev="3.3.2" rev-constraint-default="3.3.2" rev-constraint-dynamic="3.3.2" callerrev="working"/>
+				<artifacts>
+					<artifact name="commons-lang3-3.3.2" type="jar" ext="jar" status="no" details="" size="412739" time="0" location="/run/media/nick/c9aafeb5-ec91-4d34-959a-05b1c1d6f0c8/MRL_MASTER/myrobotlab/repo/org.apache.commons.commons-lang3/commons-lang3/jars/commons-lang3-3.3.2-3.3.2.jar">
+						<origin-location is-local="false" location="https://raw.githubusercontent.com/MyRobotLab/repo/master/org.apache.commons.commons-lang3/3.3.2/commons-lang3-3.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

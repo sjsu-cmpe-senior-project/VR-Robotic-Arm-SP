@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+    <info organisation="org.apache.commons.httpclient" module="httpclient" revision="4.5.2" status="release" publication="20191026170338">
+    </info>
+    <configurations>
+        <conf name="public"/>
+		<conf name="runtime"/>
+		<conf name="armv6.hfp.32.linux"/>
+		<conf name="armv7.hfp.32.linux"/>
+		<conf name="armv7.32.linux"/>
+		<conf name="armv8.64.linux"/>
+		<conf name="armv7.hfp.32.linux"/>
+		<conf name="x86.32.linux"/>
+		<conf name="x86.64.linux"/>
+		<conf name="x86.32.mac"/>
+		<conf name="x86.64.mac"/>
+		<conf name="x86.32.windows"/>
+		<conf name="x86.64.windows"/>
+    </configurations>
+    <publications>
+        <artifact name="commons-codec-1.9" type="jar"/>
+        <artifact name="commons-logging-1.2" type="jar"/>
+        <artifact name="httpclient-4.5.2" type="jar"/>
+        <artifact name="httpcore-4.4.4" type="jar"/>
+        <artifact name="httpmime-4.5.2" type="jar"/>
+    </publications>
+</ivy-module>

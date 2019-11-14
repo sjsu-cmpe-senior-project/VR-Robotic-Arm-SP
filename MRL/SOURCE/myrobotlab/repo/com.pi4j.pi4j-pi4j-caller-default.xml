@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.pi4j.pi4j"
+		module="pi4j-caller"
+		revision="working"
+		conf="default"
+		confs="default"
+		date="20191026170329"/>
+	<dependencies>
+		<module organisation="com.pi4j.pi4j" name="pi4j">
+			<revision name="1.1-SNAPSHOT" status="release" pubdate="20191026170330" resolver="public-remote" artresolver="public-remote" downloaded="true" searched="true" default="false" conf="x86.64.linux, runtime" position="0">
+				<metadata-artifact status="successful" details="" size="700" time="51" location="/run/media/nick/c9aafeb5-ec91-4d34-959a-05b1c1d6f0c8/MRL_MASTER/myrobotlab/repo/com.pi4j.pi4j/pi4j/ivy-1.1-SNAPSHOT.xml" searched="true" original-local-location="/run/media/nick/c9aafeb5-ec91-4d34-959a-05b1c1d6f0c8/MRL_MASTER/myrobotlab/repo/com.pi4j.pi4j/pi4j/ivy-1.1-SNAPSHOT.xml.original" origin-is-local="false" origin-location="https://raw.githubusercontent.com/MyRobotLab/repo/master/com.pi4j.pi4j/1.1-SNAPSHOT/ivy.xml"/>
+				<caller organisation="com.pi4j.pi4j" name="pi4j-caller" conf="default" rev="1.1-SNAPSHOT" rev-constraint-default="1.1-SNAPSHOT" rev-constraint-dynamic="1.1-SNAPSHOT" callerrev="working"/>
+				<artifacts>
+					<artifact name="pi4j-core" type="jar" ext="jar" status="successful" details="" size="513250" time="143" location="/run/media/nick/c9aafeb5-ec91-4d34-959a-05b1c1d6f0c8/MRL_MASTER/myrobotlab/repo/com.pi4j.pi4j/pi4j/jars/pi4j-core-1.1-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://raw.githubusercontent.com/MyRobotLab/repo/master/com.pi4j.pi4j/1.1-SNAPSHOT/pi4j-core.jar"/>
+					</artifact>
+					<artifact name="pi4j-gpio-extension" type="jar" ext="jar" status="successful" details="" size="90319" time="73" location="/run/media/nick/c9aafeb5-ec91-4d34-959a-05b1c1d6f0c8/MRL_MASTER/myrobotlab/repo/com.pi4j.pi4j/pi4j/jars/pi4j-gpio-extension-1.1-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://raw.githubusercontent.com/MyRobotLab/repo/master/com.pi4j.pi4j/1.1-SNAPSHOT/pi4j-gpio-extension.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

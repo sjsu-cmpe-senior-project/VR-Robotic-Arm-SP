@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="com.googlecode.simpleopenni" module="simpleopenni-caller" revision="working" status="release" publication="20191026170447" default="true"/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+		<artifact name="simpleopenni-caller" type="jar" ext="jar" conf="default"/>
+	</publications>
+	<dependencies>
+		<dependency org="com.googlecode.simpleopenni" name="simpleopenni" rev="1.96" conf="default->runtime,x86.64.linux"/>
+	</dependencies>
+</ivy-module>
