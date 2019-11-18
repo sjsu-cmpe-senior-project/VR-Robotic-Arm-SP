@@ -13,6 +13,11 @@
 !/MRL/MRL_PI
 /MRL/MRL_PI/*
 !/MRL/MRL_PI/nickscripts
+!/MRL/MRL_PI/nickscripts/*.py
+!/MRL/MRL_PI/nickscripts/*.sh
+!/MRL/MRL_PI/nickscripts/*.bak
+!/MRL/MRL_PI/*.sh
+!/MRL/MRL_PI/*.jar
 
 !/MRL/SOURCE
 /MRL/SOURCE/*
